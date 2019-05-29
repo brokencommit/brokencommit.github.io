@@ -1,6 +1,5 @@
 .calendar {
-    width: 750px;
-    font-family: Helvetica, arial;
+    width: auto;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
     min-height: 243px;
@@ -124,4 +123,34 @@ h2.f4.text-normal.mb-3 {
 }
 #user-activity-overview{
     display:none;
+}
+
+/* Git section */
+.github-graph {
+    max-width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.github-graph .js-calendar-graph-svg {
+    max-width: 100%;
+    width: 100%;
+}
+
+.github-graph h2 {
+    font-size: 18px;
+}
+
+/*.ghfeed {
+    height: 500px;
+}
+*/
+.ghfeed,
+.ghfeed *,
+.ghfeed *:before,
+.ghfeed *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
