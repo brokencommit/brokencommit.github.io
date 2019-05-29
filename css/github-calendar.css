@@ -137,20 +137,3 @@ h2.f4.text-normal.mb-3 {
     max-width: 100%;
     width: 100%;
 }
-
-/*.github-graph h2 {
-    font-size: 18px;
-}
-*/
-/*.ghfeed {
-    height: 500px;
-}
-*/
-.ghfeed,
-.ghfeed *,
-.ghfeed *:before,
-.ghfeed *:after {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-}
